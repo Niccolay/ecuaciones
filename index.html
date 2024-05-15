@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <title>ecuacion cuadratica</title>
+</head>
+<body>
+    <div class="imagen"></div>
+
+    <h1>Ingresa tus datos numéricos</h1>
+
+    <form action="#" method="post">
+        <label>a</label>
+        <input type="text" id="a" name="a" required>
+        <br><br>
+
+        <label>b:</label>
+        <input type="text" id="b" name="b" required>
+        <br><br>
+
+        <label>c:</label>
+        <input type="text" id="c" name="c" required>
+        <br><br>
+
+        <button type="button" id="calcular">Calcular</button>
+        <p id="res"></p>
+    </form>
+
+
+<br><br>
+
+    <form>
+        <label>numero de iteraciones para calcular una aproximacion a "pi"</label>
+        <input type="text" id="sumatoria"/>
+        <br><br>
+
+        <button onclick="iter()">Calcular</button>
+        <p id="res2"></p>
+    </form>
+    <script src="assets/js/java.js"></script>
+</body>
+</html>
